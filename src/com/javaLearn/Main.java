@@ -1,6 +1,7 @@
 package com.javaLearn;
 
 public class Main {
+            //CONVERT STRING VALUE TO NUMBER VALUE USING Integer.parseInt
 
 //    public static void main(String[] args) {
 //        String x = "1";
@@ -12,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-                //Math.random is by itself .000-1 that is why you multiply by 100 to get 0-100//
+                //Math.random is by itself .000-1 this is why you multiply by 100 to get 0-100 result//
 int result = (int)(Math.random() * 100);
 
         System.out.println(result);
