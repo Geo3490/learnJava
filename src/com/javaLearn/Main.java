@@ -3,6 +3,7 @@ package com.javaLearn;
 import java.text.NumberFormat;
 
 public class Main {
+
     //CONVERT STRING VALUE TO NUMBER VALUE USING Integer.parseInt
 
 //    public static void main(String[] args) {
@@ -22,14 +23,14 @@ public class Main {
 //        System.out.println(result);
     //}
 
-    //NUMBER FORMATTING
+                //NUMBER FORMATTING//
 
-    // CONVERTING NUMBERS INTO STRING Currency $1.00 numbers//
+    // CONVERTING NUMBERS INTO STRING Currency or Percentage $1.00 numbers//
     public static void main(String[] args) {
-
+//
         NumberFormat money = NumberFormat.getCurrencyInstance();
-        String result = money.format(121324);
-
+        String result = money.format(1213245);
+//
         System.out.println(result);
     }
 }
