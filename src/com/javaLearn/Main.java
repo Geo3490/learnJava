@@ -1,39 +1,22 @@
 package com.javaLearn;
 
-import java.text.NumberFormat;
+import java.util.Stack;
 
 public class Main {
-
-    //CONVERT STRING VALUE TO NUMBER VALUE USING Integer.parseInt
-
-//    public static void main(String[] args) {
-
-//        String x = "1";
-//
-//        int y = Integer.parseInt(x) + 2;
-//
-//        System.out.println(y);
-//    }
-
-    //public static void main(String[] args) {
-
-    //Math.random is by itself .000-1 this is why you multiply by 100 to get 0-100 result//
-//                int result = (int)(Math.random() * 100);
-//
-//        System.out.println(result);
-    //}
-
-                //NUMBER FORMATTING//
-
-    // CONVERTING NUMBERS INTO STRING Currency or Percentage $1.00 numbers//
     public static void main(String[] args) {
-//
-        NumberFormat money = NumberFormat.getCurrencyInstance();
-        String result = money.format(1213245);
-//
-        System.out.println(result);
+
+        Stack <String> games = new Stack<String>();
+
+        games.add("call of Duty ");
+        games.add("Far cry ");
+        games.add("Mass Effect ");
+
+        //POP Removes from the top of stack the head. Ex. Mass Effect will be removed from Array//
+        System.out.println(games.pop());
+
+        System.out.println(games);
+
     }
 }
-
 
 
