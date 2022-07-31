@@ -68,6 +68,7 @@ public class Main {
 
         System.out.println(linkageDude.getFirst());
 
+        //use the hasNext() and next() methods of the Iterator//
         Iterator it = linkageDude.iterator();
         while (it.hasNext()){
             if (it.next() == "george"){
