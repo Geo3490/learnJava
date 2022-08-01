@@ -7,7 +7,7 @@ package com.javaLearn;
         //JAVA comes with its own Stack APIs
 
                     //WHAT DOES STACK DO?//
-        //Stack is First in Last Out, Last in First Out//
+        //Stack is First in Last Out//
 
 //        Stack <String> games = new Stack<String>();
 //
@@ -55,26 +55,38 @@ package com.javaLearn;
 //    }
 //}
 
-import java.util.Iterator;
+//import java.util.Iterator;
+//import java.util.LinkedList;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        LinkedList <String> linkageDude = new LinkedList<String>();
+//
+//        linkageDude.add("george");
+//        linkageDude.add("Tim");
+//        linkageDude.add("Greg");
+//        linkageDude.add("joe");
+//
+//        System.out.println(linkageDude.getFirst());
+//
+//        //use the hasNext() and next() methods of the Iterator//
+//        Iterator it = linkageDude.iterator();
+//        while (it.hasNext()){
+//            if (it.next() == "george"){
+//                System.out.println("WE found u g");
+//            }
+//        }
+//    }
+//}
+
+
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
-        LinkedList <String> linkageDude = new LinkedList<String>();
 
-        linkageDude.add("george");
-        linkageDude.add("Tim");
-        linkageDude.add("Greg");
-        linkageDude.add("joe");
-
-        System.out.println(linkageDude.getFirst());
-
-        //use the hasNext() and next() methods of the Iterator//
-        Iterator it = linkageDude.iterator();
-        while (it.hasNext()){
-            if (it.next() == "george"){
-                System.out.println("WE found u g");
-            }
-        }
     }
 }
