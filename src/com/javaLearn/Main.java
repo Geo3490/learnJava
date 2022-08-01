@@ -65,6 +65,7 @@ public class Main {
         linkageDude.add("george");
         linkageDude.add("Tim");
         linkageDude.add("Greg");
+        linkageDude.add("joe");
 
         System.out.println(linkageDude.getFirst());
 
